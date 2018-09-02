@@ -381,7 +381,7 @@ han: false
 # Disqus
 disqus:
   enable: false
-  shortname:
+  shortname: gegewv
   count: true
   # hide comments (visitors need to click to load the comments)
   # count need to be false when hide is true
@@ -436,7 +436,9 @@ gitalk:
 #google_site_verification:
 
 # Google Analytics
-#google_analytics:
+# google_analytics:
+ga_track_id: 'UA-125010756-1'            # 你用Google账号去注册一个就会给你一个这样的id
+ga_domain: auto   # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto。
 
 # Yandex Webmaster tools verification setting
 # See: https://webmaster.yandex.ru/
@@ -585,7 +587,7 @@ use_motion: true
 fancybox: true
 
 # Progress bar in the top during page loading.
-pace: false
+pace: true
 # Themes list:
 #pace-theme-big-counter
 #pace-theme-bounce
